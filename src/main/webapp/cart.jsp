@@ -6,9 +6,10 @@
 <meta charset="EUC-KR">
 <title>장바구니</title>
 	<link rel="stylesheet" href="css/cart.css"/>
-	<script src="script/top_bar.js"></script>
+	<script src="script/cart.js"></script>
 </head>
 <body>
+	<%@ include file="top_bar.jsp" %>  
 	<div class="container">
 		<div class="head-wrapper">
 			<a href="#"><img src="top-bar/logo.png" width="100" height="50"></a>
@@ -17,7 +18,7 @@
 				<input class="bar-btn" type="button" value="🔍">
 	    	</div><!-- search-bar -->
 	    	
-	    	<div class="infomation">
+	    	<div class="infomation-cart">
         		 <a href="#" class="person">
 		        	<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
 					<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>

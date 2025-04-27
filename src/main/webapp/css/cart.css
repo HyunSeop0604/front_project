@@ -12,7 +12,7 @@ hr{margin:0; padding: 0;}
 .search-bar .text-bar{outline: none; font-size: 19px; width: 100%; border: none;}
 .search-bar .bar-btn{ background: none; border: none; font-size: 22px ;color: #0064de; cursor: pointer;}
 
-.infomation{display: flex; position: absolute; right: 0; margin-top: 8px;}
+.infomation-cart{display: flex; position: absolute; right: 0; margin-top: 8px;}
 a.person,a.bell,a.cart {border: none; padding: 0; background: none; outline: none; color: #666;}
 a.person svg ,a.bell svg,a.cart svg{border-style: none; background: #fff; color: inherit;}
 a.person,a.bell{margin-right: 30px;}

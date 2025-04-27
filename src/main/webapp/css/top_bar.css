@@ -3,30 +3,30 @@
 li{list-style: none;}
 a{text-decoration:none;}
 table{border-collapse: collapse;}
-
-.header{ display: none; width: 1200px; align-items: center; margin: 0 auto; position: fixed; top: 0;
-		 left:0; right:0; border: 1px solid red; padding: 10px 0;}
+.container{width: 100%;}
+.header{ display: none; width: 100%; align-items: center; margin: 0 auto; position: fixed; top: 0;
+		 left:0; right:0;background: #fff; z-index: 1; border: 1px solid red;}
 		
-.header button.menu{font-size: 30px; margin-left: 15px; text-decoration: none; color: #666;
+.header button.menu{font-size: 30px; margin-left: 85px; text-decoration: none; color: #666;
 					border-style: none; background: #fff; cursor: pointer;}
 
 .search-bar{width: 500px; border: 2px solid #0064de; border-radius: 25px; display: flex; padding: 6px 15px;}
 .search-bar .text-bar{outline: none; font-size: 19px; width: 100%; border: none;}
 .search-bar .bar-btn{ background: none; border: none; font-size: 22px ;color: #0064de;cursor: pointer;}
 
-.infomation{display: flex; position: absolute; right: 0;}
+.infomation{display: flex; position: absolute; right: 145px;}
 a.person,a.bell,a.cart {border: none; padding: 0; background: none; outline: none; color: #666;}
 a.person svg ,a.bell svg,a.cart svg{border-style: none; background: #fff; color: inherit;}
 a.person,a.bell{margin-right: 30px;}
 a.person:hover, a.bell:hover, a.cart:hover{color: red;}
 /*------------카테고리-------------*/
-#layout{width: 1200px;border: 1px solid red; margin:0 auto; display: none;  position: fixed; left: 0; right:0; top:75px } 
-#menu {width: 220px; text-align: center;position: relative; background: #49c55d;}
+#layout{width: 1200px;border: 1px solid red; margin:0 auto; display: none;  position: fixed; left: 0; right:0; top:55px; z-index: 1;} 
+#menu {width: 220px; text-align: center;position: relative; background: #49c55d; z-index: 1;}
 
 .main{background: #10af29; margin-bottom: 1px;}
 .main a{ display: block; color: #fff; padding: 10px 0;}
-ul.menu{display: none; position: absolute;  top: 0; left: 100%; width: 979px; overflow: hidden; border: 1px solid #eeeeee;}
-.item{ width: 100px; height: 180px; float: left; border-right: 1px solid #eeeeee;}
+ul.menu{display: none; position: absolute;  top: 0; left: 100%; width: 979px; overflow: hidden; border: 1px solid #eeeeee; background: #fff;}
+.item{ width: 100px; height: 220px; float: left; background: #fff;  border-right: 1px solid #eeeeee; z-index: 1;}
 
 span.title{font-size: 15px; font-weight: bold; margin-top: 10px; display: block;}
 .submenu li{margin-bottom: 1px;}
