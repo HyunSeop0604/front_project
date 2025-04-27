@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+*{margin:0; padding: 0;}
+li{list-style: none;}
+a{text-decoration:none;}
+table{border-collapse: collapse;}
 h1{font-family: 'Nanum Gothic', cursive;}
 hr{margin:0; padding: 0;}
 .container{height: 500px; height: 800px; border: 1px solid blue; margin: 0 auto; align-items: center;}
@@ -26,12 +30,31 @@ button.menu{width: 150px; height: 50%; background: none; cursor: pointer; border
 .head2-wrapper .utility-menu a{margin-left: 5px;  padding: 0 13px; border-right: 1px solid gray;}
 .head2-wrapper .utility-menu a:last-child{border: none; margin-right: -5px;}
 
+/* catagory*/
+.catagory{width: 100%; background: #fff; position: absolute;top: 164px; z-index: 1;}
+#layout{width: 1200px; margin:0 auto; display: none;} 
+#menu {width: 220px; text-align: center;position: relative; background: #49c55d;}
+
+.main{background: #10af29; margin-bottom: 1px;}
+.main a{ display: block; color: #fff; padding: 10px 0;}
+ul.menu{display: none; position: absolute;  top: 0; left: 100%; width: 979px; overflow: hidden; border: 1px solid #eeeeee;}
+.item{ width: 100px; height: 180px; float: left; border-right: 1px solid #eeeeee;}
+
+span.title{font-size: 15px; font-weight: bold; margin-top: 10px; display: block;}
+.submenu li{margin-bottom: 1px;}
+.submenu a{margin-bottom: 5px;}
+.list_item>a{font-size: 13px; color: #777777;}
+
+.main:hover.main>a{color: #10af29; background: #fff;}
+.main:hover .menu{ display: block;}
+.list_item > a:hover{text-decoration: underline; font-weight: bold;}
 /* header - 3 */
 .head3-wraaper{ width: 1200px; border: 1px solid red; margin:0 auto;}
 
 /* 장바구니 */
 .cart-container{width: 100%; height: 70%; background: #F3F3F3;}
-.product-select{ width: 1190px; height: 30px; margin: 0 auto 30px auto; border: 1px solid blue; overflow: hidden; padding: 5px;position: relative}
+.product-select{ width: 1190px; height: 30px; margin: 0 auto 30px auto; border: 1px solid blue; 
+				 overflow: hidden; padding: 5px;position: relative}
 .checkbox-container{width: 100px; display: flex; align-items: center; gap: 3px; border-right: 2px solid #666;float: left;position: relative;}
 [type="checkbox"] 
 {width: 20px;height: 20px;appearance: none;
@@ -51,11 +74,5 @@ button.menu{width: 150px; height: 50%; background: none; cursor: pointer; border
 .product-info{width: 90%; border:1px solid blue; margin:15px auto 15px auto; position: relative;}
 .product-img{margin-top: 15px;}
 .product-name{border: 1px solid red; position: absolute; top: 0;}
-.final-price {
-  width: 100%;
-  height: 20%;
-  background: #f8f9fa;
-  border-top: 1px solid #666;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  margin-top: 10px;}
+.final-price{width: 100%; height: 20%; background: #f8f9fa; border-top: 1px solid #666; border-bottom-left-radius: 15px;
+  			 border-bottom-right-radius: 15px;  margin-top: 10px;}

@@ -6,6 +6,7 @@
 <meta charset="EUC-KR">
 <title>장바구니</title>
 	<link rel="stylesheet" href="css/cart.css"/>
+	<script src="script/top_bar.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -49,6 +50,102 @@
 			</div>
 		</div><!-- header-2 -->
 		
+		<div class="catagory">
+			<div id="layout">
+				<div id='menu'>
+					<div class='main'>
+						<a href='#'>브랜드패션</a>
+						<ul class="menu">
+							<div class="item">
+								<span class='title'>가전</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">주방가전</a></li>
+									<li class="list_item"><a href="#">주방가전</a></li>
+									<li class="list_item"><a href="#">주방가전</a></li>
+								</ul>
+							</div><!-- itme -->
+							<div class="item">
+								<span class='title'>가전</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">주방가전</a></li>
+									<li class="list_item"><a href="#">주방가전</a></li>
+									<li class="list_item"><a href="#">주방가전</a></li>
+								</ul>
+							</div><!-- itme -->
+						</ul>
+					</div><!-- main -->
+					
+					<div class='main'>
+						<a href='#'>컴퓨터·디지털·가전</a>
+						<ul class="menu">
+							<div class="item">
+								<span class='title'>컴퓨터</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">노트북/데스크탑</a></li>
+									<li class="list_item"><a href="#">pc주변기기</a></li>
+									<li class="list_item"><a href="#">저장장치</a></li>
+								</ul>
+							</div>
+							<div class="item">
+								<span class='title'>디지털</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">모바일/태블릿</a></li>
+									<li class="list_item"><a href="#">카메라</a></li>
+									<li class="list_item"><a href="#">음향기기</a></li>
+								</ul>
+							</div>
+							<div class="item">
+								<span class='title'>가전</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">주방가전</a></li>
+									<li class="list_item"><a href="#">계절가전</a></li>
+									<li class="list_item"><a href="#">생활가전</a></li>
+								</ul>
+							</div>
+						</ul>	
+					</div><!-- main -->
+					<div class='main'>
+						<a href='#'>패션의류·잡화·뷰티</a>
+						<ul class="menu">
+							<div class="item">
+								<span class='title'>pc1</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">pc1</a></li>
+									<li class="list_item"><a href="#">pc2</a></li>
+									<li class="list_item"><a href="#">pc3</a></li>
+								</ul>
+							</div>
+						</ul>	
+					</div><!-- main -->
+					<div class='main'>
+						<a href='#'>패션의류·잡화·뷰티</a>
+						<ul class="menu">
+							<div class="item">
+								<span class='title'>pc1</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">pc1</a></li>
+									<li class="list_item"><a href="#">pc2</a></li>
+									<li class="list_item"><a href="#">pc3</a></li>
+								</ul>
+							</div>
+						</ul>	
+					</div><!-- main -->
+					<div class='main'>
+						<a href='#'>패션의류·잡화·뷰티</a>
+						<ul class="menu">
+							<div class="item">
+								<span class='title'>pc1</span>
+								<ul class='submenu'>
+									<li class="list_item"><a href="#">pc1</a></li>
+									<li class="list_item"><a href="#">pc2</a></li>
+									<li class="list_item"><a href="#">pc3</a></li>
+								</ul>
+							</div>
+						</ul>	
+					</div><!-- main -->
+				</div><!-- menu -->
+			</div><!-- layout -->
+		</div>
 		<hr>
 		
 		<div class="head3-wraaper">
